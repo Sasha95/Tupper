@@ -1,4 +1,10 @@
+import io
+
+import numpy
 from PIL import Image
+from flask import send_file
+from matplotlib.pyplot import imsave
+
 
 def from_k_to_bin(k: int) -> list:
     k //= 17
@@ -12,13 +18,13 @@ def from_k_to_bin(k: int) -> list:
     lists.reverse()
     return lists
 
-def get_image(k: int) -> None:
 
+def get_image(k: int):
     lists = from_k_to_bin(k)
 
     image = Image.new("1", (106, 17), 0)
-    draw = image.load()
     for y in range(17):
         for x in range(106):
             image.putpixel(xy=(105 - x, 16 - y), value=(int(lists[y][x]),))
-    image.save("app/static/image.png")
+
+    image.save("/app/static/result.png")

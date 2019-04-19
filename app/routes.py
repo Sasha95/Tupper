@@ -14,13 +14,14 @@ def toK_form():
     filePath = "app/static/result.png"
     if os.path.exists(filePath):
         os.remove(filePath)
+
     return render_template('degenerate.html')
 
 @app.route('/toK', methods=['POST'])
 def toK():
     text = request.form['text']
     k = generate_image(text)
-    return render_template('degenerate.html', k=k)
+    return render_template('degenerate.html', k=k, image=text)
 
 @app.route('/fromK')
 def fromK_form():
@@ -33,5 +34,6 @@ def fromK_form():
 def fromK():
     text = str(request.form['text']).strip().replace(' ', '')
     get_image(int(text))
+
     return render_template('generate.html')
 
