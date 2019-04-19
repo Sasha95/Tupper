@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Вставьте ссылку на каритнку, размера 106х17 (желательно) черно-белую. Например https://c.radikal.ru/c02/1904/80/4c5eeb20a712.png
+</h2>
+    <form method="POST">
+        <input name="text">
+        <input type="submit">
+    </form>
+    <div class="center_txt"><h1>{{ k }}</h1></div>
+    <img class="center_img" src="{{url_for('static', filename='result.png')}}" />
+{% endblock %}

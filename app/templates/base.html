@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Tupper</title>
+    </head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <a href="/">Главная</a></div>
+    <a href="/fromK">Генератор</a></div>
+    <a href="/toK">Дегенератор :)</a></div>
+    <body>
+        {% block content %}{% endblock %}
+    </body>
+</html>
