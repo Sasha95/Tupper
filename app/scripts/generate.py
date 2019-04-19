@@ -1,10 +1,6 @@
-import io
-
-import numpy
+import base64
+from io import BytesIO
 from PIL import Image
-from flask import send_file
-from matplotlib.pyplot import imsave
-
 
 def from_k_to_bin(k: int) -> list:
     k //= 17
@@ -27,4 +23,9 @@ def get_image(k: int):
         for x in range(106):
             image.putpixel(xy=(105 - x, 16 - y), value=(int(lists[y][x]),))
 
-    image.save("/app/static/result.png")
+    output = BytesIO()
+    image.save(output, "PNG")
+    contents = base64.b64encode(output.getvalue()).decode()
+    output.close()
+    contents = contents.split('\n')[0]
+    return contents

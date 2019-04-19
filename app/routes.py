@@ -33,7 +33,6 @@ def fromK_form():
 @app.route('/fromK', methods=['POST'])
 def fromK():
     text = str(request.form['text']).strip().replace(' ', '')
-    get_image(int(text))
-
-    return render_template('generate.html')
+    contents = get_image(int(text))
+    return render_template('generate.html', contents=contents)
 
