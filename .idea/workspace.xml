@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b865a846-9ea9-424a-a9b0-45fdcaa33c35" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/generate.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/generate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scripts/degenerate.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/degenerate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/static/result.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/generate.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/generate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/degenerate.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/degenerate.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,15 +15,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Tupper$Tupper.coverage" NAME="Tupper Coverage Results" MODIFIED="1555710953377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tupper$Tupper.coverage" NAME="Tupper Coverage Results" MODIFIED="1555713440675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="routes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="400">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -34,10 +34,34 @@
       <file leaf-file-name="generate.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/generate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="36" column="19" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="19" />
+            <state relative-caret-position="394">
+              <caret line="29" column="38" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="29" selection-end-column="38" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="degenerate.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/degenerate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="degenerate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/degenerate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="n#src#0;n#img#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,20 +70,11 @@
       <file leaf-file-name="generate.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/generate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="425">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="73" />
               <folding>
                 <element signature="n#src#0;n#img#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="degenerate.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/templates/degenerate.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -91,14 +106,14 @@
         <option value="$PROJECT_DIR$/app/static/styleBody.css" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/app/__init__.py" />
-        <option value="$PROJECT_DIR$/app/scripts/degenerate.py" />
         <option value="$PROJECT_DIR$/app/templates/base.html" />
         <option value="$PROJECT_DIR$/app/static/style.css" />
         <option value="$PROJECT_DIR$/app/templates/index.html" />
-        <option value="$PROJECT_DIR$/app/routes.py" />
-        <option value="$PROJECT_DIR$/app/scripts/generate.py" />
         <option value="$PROJECT_DIR$/app/templates/generate.html" />
+        <option value="$PROJECT_DIR$/app/scripts/generate.py" />
         <option value="$PROJECT_DIR$/app/templates/degenerate.html" />
+        <option value="$PROJECT_DIR$/app/routes.py" />
+        <option value="$PROJECT_DIR$/app/scripts/degenerate.py" />
       </list>
     </option>
   </component>
@@ -228,16 +243,16 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32985386" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32985386" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32985386" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25523704" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25523704" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32985386" />
       <window_info anchor="right" id="SciView" order="4" weight="0.3296582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39979124" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -367,28 +382,11 @@
     <entry file="file://$PROJECT_DIR$/app/static/Screenshot_1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/static/image.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/result.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/degenerate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -411,30 +409,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/generate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="250">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/generate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="425">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="73" />
           <folding>
             <element signature="n#src#0;n#img#0;n#!!top" expanded="true" />
           </folding>
@@ -443,8 +428,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/degenerate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="150">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="n#src#0;n#img#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/generate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/degenerate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
